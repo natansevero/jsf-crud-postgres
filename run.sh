@@ -1,3 +1,4 @@
+mvn clean install
 docker stop webapp_jsf
 docker rm webapp_jsf
 docker build -t natan/webapp_jsf .
